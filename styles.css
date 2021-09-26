@@ -2,19 +2,66 @@
     font-family: "sjo";
     src: url(./fonts/Starjout.ttf) format(truetype);
 }
-
-/* @font-face {
-    font-family: "starjedi";
-    src: url(/fonts/StarJedi-DGRW.ttf) format(truetype); 
-} */
-
-
+@font-face {
+    font-family: "sjo2";
+    src: url(./fonts/Starjout.woff2)
+}
+@font-face {
+    font-family: "sje";
+    src: url(./fonts/Starjhol.ttf)
+}
+@font-face {
+    font-family: "sje2";
+    src: url(./fonts/Starjhol.woff2)
+}
 
 body {
     background-color: dimgrey;
     color: whitesmoke;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'sjo', 'sjo2';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 80vh;
+
 }
 
 header {
-    font-family: 'sjo';
+    font-family: 'sje', 'sje2';
+    text-align: center;
+    border: solid 5px red;
+}
+
+#beings {
+    margin: 5px;
+    width: 20%;
+    border: solid 3px green;
+}
+
+#search {
+    margin: 5px;
+    width: 60%;
+    border: solid 3px orange;
+}
+
+#planets{
+    margin: 5px;
+    width: 20%;
+    border: solid 3px palegreen;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: small;
+    border: solid 3px black;
+}
+
+nav {
+    
 }
