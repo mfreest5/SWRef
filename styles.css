@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "sjo";
+    src: url(./fonts/Starjout.ttf) format(truetype);
+}
+
+/* @font-face {
+    font-family: "starjedi";
+    src: url(/fonts/StarJedi-DGRW.ttf) format(truetype); 
+} */
+
+
+
+body {
+    background-color: dimgrey;
+    color: whitesmoke;
+}
+
+header {
+    font-family: 'sjo';
+}
