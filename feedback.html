@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reference</title>
+    <title>Feedback</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="">
+    <p id="error"></p>
+    <form>
+    <fieldset>
+        <legend>Feedback</legend>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="Your Email Here" name="Email">
+            <br>
+            <label for="fname">First Name:</label>
+            <br>
+            <input type="fname" id="fname" placeholder="First Name" name="First Name">
+            <br>
+            <label for="lname">Last Name:</label>
+            <br>
+            <input type="lname" id="lname" placeholder="Last Name" name="Last Name">
+            <label for="feedback"></label>
+            <br>
+            <!-- <input type="feedback" name="Feedback" id="feedback" placeholder="Your feedback here"> -->
+            <textarea name="Feedback" id="feedback" cols="30" rows="10" placeholder="Your feedback here" autofocus required></textarea>
+            <br>
+            <button type="submit">Submit!</button>
+    </fieldset>
+        
 
 
     </form>

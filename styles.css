@@ -55,6 +55,27 @@ header {
     border: solid 3px palegreen;
 }
 
+#error {
+    color: darkred;
+}
+
+#me {
+    height: 50%;
+    border-radius: 10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutmain {
+    
+}
+
+#aboutp {
+    text-align: center;
+    margin: 10%;
+}
+
 footer {
     margin-top: 20px;
     text-align: center;
@@ -64,4 +85,17 @@ footer {
 
 nav {
     
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+
+textarea {
+    background-color: lightgray;
 }
