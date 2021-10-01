@@ -46,7 +46,6 @@ header {
 #search {
     margin: 5px;
     width: 60%;
-    border: solid 3px orange;
 }
 
 #planets{
@@ -60,11 +59,16 @@ header {
 }
 
 #me {
-    height: 50%;
+    height: 10%;
+    width: 15%;
     border-radius: 10px; 
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#field1 {
+    font-size: large;
 }
 
 #aboutmain {
@@ -73,14 +77,27 @@ header {
 
 #aboutp {
     text-align: center;
-    margin: 10%;
+    margin: 5%;
 }
+
+#meBody {
+    background-image: url(./mfalcon.jpg);
+    background-size:cover;
+    color: black;
+}
+
 
 footer {
     margin-top: 20px;
     text-align: center;
     font-size: small;
     border: solid 3px black;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+ 
 }
 
 nav {
