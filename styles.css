@@ -67,6 +67,11 @@ header {
     margin-right: auto;
 }
 
+#bodyI {
+    background-image: url(./ship\ background.jpg);
+    background-size: cover;
+}
+
 #field1 {
     font-size: large;
 }
@@ -116,3 +121,11 @@ input {
 textarea {
     background-color: lightgray;
 }
+
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
