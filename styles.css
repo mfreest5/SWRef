@@ -34,13 +34,13 @@ main {
 header {
     font-family: 'sje', 'sje2';
     text-align: center;
-    border: solid 5px red;
+    /* border: solid 5px red; */
 }
 
 #beings {
     margin: 5px;
     width: 20%;
-    border: solid 3px green;
+    /* border: solid 3px green; */
 }
 
 #search {
@@ -51,7 +51,7 @@ header {
 #planets{
     margin: 5px;
     width: 20%;
-    border: solid 3px palegreen;
+    /* border: solid 3px palegreen; */
 }
 
 #error {
@@ -68,7 +68,7 @@ header {
 }
 
 #bodyI {
-    background-image: url(./ship\ background.jpg);
+    background-image: url(./images/ship\ background.jpg);
     background-size: cover;
 }
 
@@ -86,17 +86,22 @@ header {
 }
 
 #meBody {
-    background-image: url(./mfalcon.jpg);
+    background-image: url(./images/mfalcon.jpg);
     background-size:cover;
     color: black;
 }
 
+.beings {
+    display: block;
+    max-width: 100%;
+    height: 30vh;
+}
 
 footer {
     margin-top: 20px;
     text-align: center;
     font-size: small;
-    border: solid 3px black;
+    /* border: solid 3px black ; */
     position:fixed;
     left:0px;
     bottom:0px;
