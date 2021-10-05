@@ -12,16 +12,11 @@ form.addEventListener('submit', (e) => {
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => console.log('Success!', response))
             .then(() => {
-                //This is where you write your code
                 document.querySelector('#email').value = ""
                 document.querySelector('#fname').value = ""
                 document.querySelector('#lname').value = ""
                 document.querySelector('#feedback').value = ""              
 
-
-
-
-            //Do not alter below this line
         })
         .catch(error => console.error('Error!', error.message))
     }
