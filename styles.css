@@ -138,8 +138,12 @@ a:link {
     color: red;
   }
   
-  a:visited {
+  /* a:visited {
     color: green;
+  } */
+
+  .aboutNav {
+      background-color: rgba(0, 0, 0, 0.55);
   }
 
   
