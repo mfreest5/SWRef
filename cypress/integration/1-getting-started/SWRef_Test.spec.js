@@ -53,6 +53,10 @@ describe('Verifying homepage information', () =>  {
     //     cy.get('#referendum').find('')
 
     // })
+    it('Typing and entering "Han" displays Hans info', () => {
+        cy.get('#search').type('Han{enter}')
+        cy.get('#field1').should('contain', 'Han Solo')
+    })
 
     
 })
