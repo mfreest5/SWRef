@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// import '@testing-library/cypress/add-commands'
+
+Cypress.Commands.add('validateLink',(selector) => {
+    cy.get(selector).should('exist').then(link => {
+        const href= link.attr('href')
+        console.log(href)
+        cy.request(href).its('status').should('eq', 200)
+    })
+})
